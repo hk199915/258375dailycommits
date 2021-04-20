@@ -16,3 +16,8 @@ print(squares[0:1])
 nums=[4,5,6]
 msg="Numbers:{0} {1} {2}".format(nums[0],nums[1],nums[2])
 print(msg)
+
+#lambda function
+triple = lambda x: x * 3
+add = lambda x, y: x + y
+print(add(triple(3), 4))
