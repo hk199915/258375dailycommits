@@ -21,3 +21,11 @@ print(msg)
 triple = lambda x: x * 3
 add = lambda x, y: x + y
 print(add(triple(3), 4))
+
+#map function
+def add_five(x):
+    return x+5
+
+nums=[11,22,33,44,55]
+result=list(map(add_five,nums))
+print(result)
