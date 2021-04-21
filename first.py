@@ -29,3 +29,12 @@ def add_five(x):
 nums=[11,22,33,44,55]
 result=list(map(add_five,nums))
 print(result)
+
+#Class
+class Cat:
+    def __init__(self,color,legs):
+        self.color=color
+        self.legs=legs
+
+felix=Cat("ginger",4)
+print(felix.color)
