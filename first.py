@@ -69,3 +69,13 @@ second=Vector2D(3,9)
 result=first+second
 print(result.x)
 print(result.y)
+
+#Data Hiding
+class Spam:
+    __egg=7
+    def print_egg(self):
+        print(self.__egg)
+
+s=Spam()
+s.print_egg()
+print(s._Spam__egg)
