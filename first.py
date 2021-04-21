@@ -144,3 +144,11 @@ pattern=r"David"
 newstr=re.sub(pattern,"Amy",str)
 print(newstr)
 
+
+#Tuple Unpacking
+numbers=(1,2,3)
+a,b,c=numbers
+print(a)
+print(b)
+print(c)
+
